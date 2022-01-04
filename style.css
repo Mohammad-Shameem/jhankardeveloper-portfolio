@@ -5,16 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .color-jhankar{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;                                       /* (eta diye 2ta section ke pasha pashi rakha jay) */
     margin-bottom: 150px;                                      /* (eta diye 2ta section er majhe gap kora hoiche) */
 }
 .half-width{
     width: 50%;
     padding: 2%;
+    text-decoration: none;
 }
 .half-width img{
     width: 80%;
@@ -38,4 +42,33 @@ section{
 }
 .padding{
     padding-right: 20%;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+  
+}
+.expeirence-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+#border-color1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#border-color{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
 }
