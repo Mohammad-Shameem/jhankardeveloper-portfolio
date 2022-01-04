@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;                               /* (eta korar karon hocche jodi kono kichu add korle seta browser ekdom konay lagaite chai tahole eta korte hobe, karon browser bt default ektu margin kore dey.eta korle seta chole jay.) */
+}
+h1{
+    font-size: 50px;
+}
+.color-jhankar{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;                                    /* (eta kora hoy karon kono line ke anchor korle oi line er niche ekta dag ashe, eita korle ar sei dag ashe na) */
+    background-image: linear-gradient(orange,tomato);
+    color:white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);              /* (evabe section e image use kora hoy */
+    background-repeat: no-repeat;                                    /* (kono bacground image ekta dile jodi seta vibinno jaygay chole jay tahole evabe korle seta repeat kora bondho hoye jabe.) */
+}
