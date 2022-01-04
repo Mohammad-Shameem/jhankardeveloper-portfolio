@@ -9,7 +9,8 @@ h1{
     color: orange;
 }
 section{
-    display: flex;
+    display: flex;                                       /* (eta diye 2ta section ke pasha pashi rakha jay) */
+    margin-bottom: 150px;                                      /* (eta diye 2ta section er majhe gap kora hoiche) */
 }
 .half-width{
     width: 50%;
@@ -29,4 +30,12 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);              /* (evabe section e image use kora hoy */
     background-repeat: no-repeat;                                    /* (kono bacground image ekta dile jodi seta vibinno jaygay chole jay tahole evabe korle seta repeat kora bondho hoye jabe.) */
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.padding{
+    padding-right: 20%;
 }
